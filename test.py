@@ -69,6 +69,7 @@ limit = 0
 
 figure, axis = plt.subplots(figsize=(7.6, 6.1))
 axis.imshow(image_solved)
+plt.savefig("solved.png")
 
 # plt.ion()
 # plt.show(block=False)
